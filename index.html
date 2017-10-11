@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Who Wants To Be A Yobonaire</title>
+	<link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+	<div class="container-fluid container-welcome hide">
+		<div class="row">
+			<div class="col-xs-12">
+				<img class="img-responsive" src="assets/images/logo.png" alt="">
+			</div>
+			<div class="col-xs-12">
+				<div class="row">
+					<div class="col-xs-8">
+						<img class="img-responsive" src="assets/images/ej-host.png" alt="">
+					</div>
+					<div class="col-xs-4">
+						<p>Are you ready to take home 1 million Kissos?</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 text-center">
+				<p>With Mr. EJ Perez</p>
+			</div>
+			<div class="col-xs-12 text-center">
+				<button class="btn btn-primary btn-block btn-play">Play now</button>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid container-playing hide">
+		<div class="row">
+			<div class="col-xs-12 prize-text">
+			</div>
+			<div class="col-xs-12 question-text">
+			</div>
+			<div class="col-xs-12 question-choices">
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid container-correct hide">
+		<div class="row">
+			<div class="col-xs-12">You Are Correct!</div>
+		</div>
+	</div>
+
+	<div class="container-fluid container-wrong hide">
+		<div class="row">
+			<div class="col-xs-12">Thank you for playing</div>
+			<button class="btn btn-primary btn-play">Start again</button>
+		</div>
+	</div>
+
+	<div class="container-fluid container-won hide">
+		<div class="row">
+			<div class="col-xs-12">Congratulations! You Won 1M Kissos!</div>
+		</div>
+	</div>
+
+	<script src="vendor/jquery/dist/jquery.min.js"></script>
+	<script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="assets/js/game.js"></script>
+	<script src="assets/js/helpers.js"></script>
+</body>
+
+</html>
