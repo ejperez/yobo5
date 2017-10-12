@@ -17,17 +17,16 @@
 				<img class="img-responsive" src="assets/images/logo.png" alt="">
 			</div>
 			<div class="col-xs-12">
-				<div class="row">
-					<div class="col-xs-8">
-						<img class="img-responsive" src="assets/images/ej-host.png" alt="">
-					</div>
-					<div class="col-xs-4">
-						<p>Are you ready to take home 1 million Kissos?</p>
-					</div>
-				</div>
+				<h1 class="tag-line text-center">Are you ready to take home
+					<br>
+					<strong>1 MILLION KISSOS?</strong>
+				</h1>
+			</div>
+			<div class="col-xs-12">
+				<img class="img-responsive" src="assets/images/ej-host.png" alt="">
 			</div>
 			<div class="col-xs-12 text-center">
-				<p>With Mr. EJ Perez</p>
+				<p class="host-name">Hosted by EJ Perez</p>
 			</div>
 			<div class="col-xs-12 text-center">
 				<button class="btn btn-primary btn-block btn-play">Play now</button>
@@ -37,9 +36,33 @@
 
 	<div class="container-fluid container-playing hide">
 		<div class="row">
-			<div class="col-xs-12 prize-text">
+			<div class="col-xs-6 level-text">
 			</div>
-			<div class="col-xs-12 question-text">
+			<div class="col-xs-6 text-right">
+				For
+				<span class="prize-text"></span> Kissos
+			</div>
+			<div class="col-xs-12 question-text darken">
+			</div>
+			<div class="col-xs-12 lifelines">
+				<div class="row">
+					<div class="col-xs-12 text-center lifelines-text">Life lines</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-4">
+						<button class="btn-lifeline btn-5050 btn btn-default btn-block">50:50</button>
+					</div>
+					<div class="col-xs-4">
+						<button class="btn-lifeline btn-call btn btn-default btn-block">
+							<span class="glyphicon glyphicon-earphone"></span>
+						</button>
+					</div>
+					<div class="col-xs-4">
+						<button class="btn-lifeline btn-ask btn btn-default btn-block">
+							<span class="glyphicon glyphicon-user"></span>
+						</button>
+					</div>
+				</div>
 			</div>
 			<div class="col-xs-12 question-choices">
 			</div>
@@ -48,20 +71,67 @@
 
 	<div class="container-fluid container-correct hide">
 		<div class="row">
-			<div class="col-xs-12">You Are Correct!</div>
+			<div class="col-xs-12">
+				<h1 class="text-center">You Are Correct!</h1>
+			</div>
+			<div class="col-xs-12">
+				<img class="img-correct img-responsive" src="" alt="">
+			</div>
 		</div>
 	</div>
 
 	<div class="container-fluid container-wrong hide">
 		<div class="row">
-			<div class="col-xs-12">Thank you for playing</div>
-			<button class="btn btn-primary btn-play">Start again</button>
+			<div class="col-xs-12">
+				<h1 class="text-center">Sorry, that's wrong :(</h1>
+			</div>
+			<div class="col-xs-12">
+				<img class="img-wrong img-responsive" src="" alt="">
+			</div>
+			<div class="col-xs-12">
+				<br>
+				<button class="btn btn-block btn-primary btn-play">Start again</button>
+			</div>
 		</div>
 	</div>
 
 	<div class="container-fluid container-won hide">
 		<div class="row">
-			<div class="col-xs-12">Congratulations! You Won 1M Kissos!</div>
+			<div class="col-xs-12 text-center">
+				<h1 class="congrats">Congratulations!</h1>
+				<p>You won 1 Million Kissos!</p>
+				<p>And you are a certified Yobonaire!</p>
+			</div>
+			<div class="col-xs-12 text-center">
+				<img src="assets/images/victory.gif" alt="">
+			</div>
+			<div class="col-xs-12">
+				<br>
+				<button class="btn btn-block btn-primary btn-claim">Click here to claim prize</button>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid container-friend hide">
+		<div class="row">
+			<div class="col-xs-12">
+				<p>On the phone</p>
+				<p class="text-center friend-name hide"></p>
+			</div>
+			<div class="col-xs-12 ringing">
+				<h1 class="text-center">
+					<span class="glyphicon glyphicon-earphone"></span> Ringing...</h1>
+			</div>
+			<div class="col-xs-12">
+				<img class="img-responsive friend-image hide" src="" alt="">
+			</div>
+			<div class="col-xs-12">
+				<p class="text-center friend-message darken hide"></p>
+			</div>
+			<div class="col-xs-12">
+				<br>
+				<button class="btn btn-block btn-primary btn-resume hide">Back to question</button>
+			</div>
 		</div>
 	</div>
 

@@ -1,0 +1,15 @@
+{
+	"friends":
+	[
+		{
+			"name": "test",
+			"image": "win-1.gif",
+			"message": "Tingin ko {choice} and tamang sagot."
+		},
+		{
+			"name": "test 2",
+			"image": "win-2.gif",
+			"message": "I think the answer is letter {choice}."
+		}
+	]
+}

@@ -5,3 +5,61 @@ body {
 	background-attachment: fixed;
 	color: white;
 }
+
+.question-text {
+	min-height: 200px;
+	font-weight: bold;
+	font-size: 20px;	
+}
+
+.darken {
+	background-color: rgba(0,0,0,0.5);
+}
+
+.tag-line {
+	font-size: 23px;
+}
+
+.btn-default {
+	background-color: black;
+	color: white;
+}
+
+.btn-primary {
+	background-color: #FECB18;
+	color: black;
+	font-weight: bold;
+	border: solid 1px white;
+}
+
+.badge {
+	background-color: #FECB18 !important;
+	color: black !important;
+}
+
+.host-name {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.lifelines-text {
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
+.lifelines {
+	margin-bottom: 10px;
+}
+
+.friend-name {
+	font-weight: bold;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.congrats {
+	font-weight: bold;
+	font-size: 20px;
+	text-transform: uppercase;
+}

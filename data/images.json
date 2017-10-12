@@ -1,0 +1,14 @@
+{
+	"images": {
+		"win":[
+			"win-1.gif",
+			"win-2.gif",
+			"win-3.gif"
+		],
+		"lose":[
+			"lose-1.gif",
+			"lose-2.gif",
+			"lose-3.gif"
+		]
+	}
+}
