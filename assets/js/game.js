@@ -34,7 +34,8 @@ var Game = {};
 			correct: $('.container-correct'),
 			wrong: $('.container-wrong'),
 			won: $('.container-won'),
-			friend: $('.container-friend')
+			friend: $('.container-friend'),
+			claim: $('.container-claim'),
 		};
 
 		// Get levels data
@@ -61,6 +62,15 @@ var Game = {};
 			dataType: 'json',
 			success: function (data) {
 				Game.data.friends = data.friends;
+			}
+		});
+
+		// Get claim data
+		$.get({
+			url: 'data/claim.json',
+			dataType: 'json',
+			success: function (data) {
+				Game.data.claim = data.claim;
 			}
 		});
 
@@ -172,6 +182,13 @@ var Game = {};
 			});
 		});
 
+		// Claim button click
+		$(document).on('click', '.btn-claim', function () {
+			Game.state = 'claim';
+			Game.containers.won.addClass('hide');
+			Game.update();
+		});
+
 		// Resume after call a friend
 		var resume = function () {
 			clearInterval(callAFriendInterval);
@@ -252,6 +269,28 @@ var Game = {};
 				break;
 			case 'resume':
 				Game.containers.playing.removeClass('hide');
+				break;
+			case 'claim':
+				Game.containers.claim.removeClass('hide');
+				$('body').css('background-image', 'url(assets/images/win-bg.jpg)');
+
+				// Output data
+				var html = '';
+				Game.data.claim.forEach(function(item){
+					switch (item.type) {
+						case 'image':
+							html += '<img class="img-responsive" src="' + imagePath + item.content + '">';
+							break;
+						case 'title':
+							html += '<h1>' + item.content + '</h1>';
+							break;
+						case 'text':
+							html += '<p>' + item.content + '</p>';
+							break;
+					}
+				});
+
+				Game.containers.claim.find('.content').html(html);
 				break;
 		}
 	};

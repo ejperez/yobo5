@@ -1,0 +1,17 @@
+{
+	"claim":
+	[
+		{
+			"type": "image",
+			"content": "win-1.gif"
+		},
+		{
+			"type": "title",
+			"content": "Title"
+		},
+		{
+			"type": "text",
+			"content": "Text"
+		}
+	]
+}
