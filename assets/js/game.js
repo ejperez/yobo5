@@ -83,6 +83,10 @@ var Game = {};
 			// Hide other containers
 			Game.containers.welcome.addClass('hide');
 			Game.containers.wrong.addClass('hide');
+			Game.containers.claim.addClass('hide');
+
+			// Reset background
+			$('body').css('background-image', 'url(assets/images/bg.jpg)');
 
 			// Reset lifelines
 			btnLifelines.prop('disabled', false);
@@ -202,7 +206,7 @@ var Game = {};
 		// Start when all AJAX calls are finished
 		$(document).ajaxStop(function () {
 			// Test
-			Game.state = 'won';
+			Game.state = 'claim';
 			Game.currentLevel = 11;
 			Game.containers.welcome.addClass('hide');
 			Game.update();
@@ -212,6 +216,7 @@ var Game = {};
 	};
 
 	Game.update = function () {
+
 		console.log(Game.state);
 
 		switch (Game.state) {
@@ -289,7 +294,6 @@ var Game = {};
 							break;
 					}
 				});
-
 				Game.containers.claim.find('.content').html(html);
 				break;
 		}

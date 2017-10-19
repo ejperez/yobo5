@@ -108,6 +108,11 @@
 					"question":"Ilang kilong isda ang binili ng mag-yobo sa Bulacan nung first visit nila kay nanay ni Yobolabs?",
 					"answer":"2 kg",
 					"options":["1 1/2 kg", "1 kg", "Hindi bumili"]
+				},
+				{
+					"question":"Ano ang ride na laging sinasakyan ng mag-yobo sa amusement park?",
+					"answer":"Ferris wheel",
+					"options":["Roller coaster", "Vikings", "Bump cars"]
 				}
 			]
 		},
@@ -152,6 +157,11 @@
 					"question":"Kailan ang first kiss ng mag-yobo?",
 					"answer":"Nung pauwi na si Yobolabs galing sa bahay ni Yoboness",
 					"options":["Sa rooftop", "Sa Charlie Del Rosario", "Never pa nangyari"]
+				},
+				{
+					"question":"Ano ang brand ng folding bike ni Yobolabs na ginamit para maturuan mag-bike si Yoboness?",
+					"answer":"Trinx",
+					"options":["Trins", "Giant", "Sucre"]
 				}
 			]
 		},
@@ -174,6 +184,11 @@
 					"question":"Anong bus company ang sinakyan nila papuntang Coco Grove Laiya Batangas?",
 					"answer":"ALPS the Bus",
 					"options":["Victory Liner", "Panty Liner", "HM Transport"]
+				},
+				{
+					"question":"Saan unang natutong lumangoy si Yobolabs kasama si Yoboness?",
+					"answer":"Rainforest",
+					"options":["Casanjo", "Bosai", "Laresio Waterpark"]
 				}
 			]
 		},

@@ -2,14 +2,39 @@
 	"friends":
 	[
 		{
-			"name": "test",
-			"image": "win-1.gif",
-			"message": "Tingin ko {choice} and tamang sagot."
+			"name": "Maureen Wroblewitz",
+			"image": "mauwrob.jpg",
+			"message": "Hi! It's your girl Maureen. And I've just won Asia's Next Top Model. I. I kennat. That question is so hard. So I'm only gonna guess. It's {choice}. Thank you so much for the support. Ich liebe dich Philippinen!"
 		},
 		{
-			"name": "test 2",
-			"image": "win-2.gif",
-			"message": "I think the answer is letter {choice}."
+			"name": "Pao Pao",
+			"image": "paopao.jpg",
+			"message": "Arrf! Arrf! Grrr... {choice}."
+		},
+		{
+			"name": "Closer",
+			"image": "closer.jpg",
+			"message": "Meow... meow... meow... foods... {choice}."
+		},
+		{
+			"name": "Bike",
+			"image": "bike.jpg",
+			"message": "Kahit na pinagbili mo (Yoboness) na ako, tutulungan pa rin kita masagot ang tanong na ito. Tingin ko {choice} ang sagot kasi hindi niya ako iiwan."
+		},
+		{
+			"name": "Sapporo",
+			"image": "sapporo.jpg",
+			"message": "Hik! Hik! Hik! Ayy bote nga lang pala ako. Bakit ako lasing? Try mo {choice}."
+		},
+		{
+			"name": "Sandara Park",
+			"image": "sanpark.jpeg",
+			"message": "Annyeong! Nakita mo ba si Mario Maurer? Nasa kanya na kasi ang lahat pati dandruff. 'Di ko alam kung ano ang in or out sa mga choices te. Feeling ko {choice} ang tamang sagot. Annyeong!."
+		},
+		{
+			"name": "Kendall Jenner",
+			"image": "kenjen.jpg",
+			"message": "Hi my other self! I think the answer is {choice}. I can feel it! Good luck!"
 		}
 	]
 }
