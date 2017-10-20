@@ -10,7 +10,7 @@ var Game = {};
 		currentQuestion: null
 	};
 
-	var maxLevel = 1;
+	var maxLevel = 10;
 	var imgWrong = $('.img-wrong');
 	var imgCorrect = $('.img-correct');
 	var btnLifelines = $('.btn-lifeline');
@@ -205,13 +205,7 @@ var Game = {};
 
 		// Start when all AJAX calls are finished
 		$(document).ajaxStop(function () {
-			// Test
-			Game.state = 'claim';
-			Game.currentLevel = 11;
-			Game.containers.welcome.addClass('hide');
 			Game.update();
-
-			// Game.update();
 		});
 	};
 

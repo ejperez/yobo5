@@ -7,11 +7,87 @@
 		},
 		{
 			"type": "title",
-			"content": "Wazzup Yoboness!"
+			"content": "Happy 5th Anniyoborsary!"
 		},
 		{
 			"type": "text",
-			"content": "Five years na tayo!"
-		}
+			"content": "Sana'y magustuhan mo ang handog ko sa'yo."
+		},
+		{
+			"type": "image",
+			"content": "wow.gif"
+		},
+		{
+			"type": "title",
+			"content": "Petmalu ba?"
+		},
+		{
+			"type": "text",
+			"content": "Marami na pala tayong trivia tungkol sa ating dalawa noh? Na tayo lang nakakaintindi. Hehe"
+		},
+		{
+			"type": "image",
+			"content": "thanks.gif"
+		},
+		{
+			"type": "title",
+			"content": "Thank you!"
+		},
+		{
+			"type": "text",
+			"content": "Unang una, nais kong magpasalamat kay Lord sa buhay natin at sa patuloy na paggabay Niya sa ating relasyon. At syempre gusto ko kitang pasalamatan sa pagmamahal, sa hilot kapag masama pakiramdam ko (may efficascent pa), at sa pag-intindi kapag tinitopak ako (lodi kita sa part na yun ;D)"
+		},
+		{
+			"type": "image",
+			"content": "wish.gif"
+		},
+		{
+			"type": "title",
+			"content": "Wish!"
+		},
+		{
+			"type": "text",
+			"content": "Wish ko na lalo pa tayong tumatag sa ating relasyon at sa faith. At kung loloobin ni Lord, sana'y ikaw na nga :')"
+		},
+		{
+			"type": "image",
+			"content": "perfect.gif"
+		},
+		{
+			"type": "title",
+			"content": "Perfect!"
+		},
+		{
+			"type": "text",
+			"content": "Sana'y patuloy pa tayong magmahalan kahit na may dancing in the dark at barefoot on the grass tayo xD"
+		},
+		{
+			"type": "image",
+			"content": "fireworks.gif"
+		},
+		{
+			"type": "title",
+			"content": "Fireworks!"
+		},
+		{
+			"type": "text",
+			"content": "Ayun! Muli, Happy Happy Happy 5th Anniversary! More power! More laughs! More love! :3"
+		},
+		{
+			"type": "image",
+			"content": "love.gif"
+		},
+		{
+			"type": "text",
+			"content": "#bH3nTH3DH0hwZ"
+		},
+		{
+			"type": "image",
+			"content": "yobo.jpg"
+		},
+		{
+			"type": "text",
+			"content": "I will always be with you!"
+		}		
 	]
 }

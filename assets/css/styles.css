@@ -4,6 +4,8 @@ body {
 	background-position: center;
 	background-attachment: fixed;
 	color: white;
+	font-family: 'Lato', sans-serif;
+	padding-bottom: 10px;
 }
 
 .question-text {
@@ -62,4 +64,9 @@ body {
 	font-weight: bold;
 	font-size: 20px;
 	text-transform: uppercase;
+}
+
+.img-responsive {
+	width: 100%;
+	display: block;
 }
